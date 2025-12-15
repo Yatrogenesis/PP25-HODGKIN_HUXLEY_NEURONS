@@ -17,6 +17,8 @@ affiliations:
     index: 1
 date: 14 December 2025
 bibliography: paper.bib
+repository: https://github.com/Yatrogenesis/PP25-HODGKIN_HUXLEY_NEURONS
+archive_doi: 10.5281/zenodo.17932872
 ---
 
 # Summary

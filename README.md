@@ -2,6 +2,7 @@
 
 A production-ready Rust implementation of the Hodgkin-Huxley neuron model with exact biophysical equations from the seminal 1952 paper.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17932872.svg)](https://doi.org/10.5281/zenodo.17932872)
 [![Crates.io](https://img.shields.io/crates/v/hodgkin-huxley.svg)](https://crates.io/crates/hodgkin-huxley)
 [![Documentation](https://docs.rs/hodgkin-huxley/badge.svg)](https://docs.rs/hodgkin-huxley)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE)
@@ -253,6 +254,7 @@ If you use this library in your research, please cite:
   title = {hodgkin-huxley-rs: A Production-Ready Rust Implementation of Biophysically Accurate Neuron Models},
   author = {Molina Burgos, Francisco},
   year = {2025},
-  url = {https://github.com/Yatrogenesis/PP25-HODGKIN_HUXLEY_NEURONS}
+  doi = {10.5281/zenodo.17932872},
+  url = {https://doi.org/10.5281/zenodo.17932872}
 }
 ```
