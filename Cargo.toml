@@ -1,31 +1,31 @@
 [package]
 name = "hodgkin-huxley"
-version.workspace = true
-edition.workspace = true
-authors.workspace = true
-license.workspace = true
-repository = "https://github.com/Yatrogenesis/cortexia-workspace"
+version = "0.1.0"
+edition = "2021"
+authors = ["Francisco Molina Burgos <pako.molina@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Yatrogenesis/PP25-HODGKIN_HUXLEY_NEURONS"
 description = "High-performance Hodgkin-Huxley neuron models with exact biophysical equations for computational neuroscience"
 keywords = ["neuroscience", "computational", "hodgkin-huxley", "neurons", "simulation"]
 categories = ["science", "simulation"]
 readme = "README.md"
 
 [dependencies]
-nalgebra = { workspace = true }
-ndarray = { workspace = true }
-num-complex = { workspace = true }
-statrs = { workspace = true }
-rayon = { workspace = true }
-serde = { workspace = true }
-serde_json = { workspace = true }
-thiserror = { workspace = true }
-rand = { workspace = true }
-rand_distr = { workspace = true }
+nalgebra = "0.32"
+ndarray = "0.15"
+num-complex = "0.4"
+statrs = "0.16"
+rayon = "1.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+rand = "0.8"
+rand_distr = "0.4"
 
 [dev-dependencies]
-approx = { workspace = true }
-criterion = { workspace = true }
-proptest = { workspace = true }
+approx = "0.5"
+criterion = "0.5"
+proptest = "1.4"
 
 [[bench]]
 name = "neuron_bench"

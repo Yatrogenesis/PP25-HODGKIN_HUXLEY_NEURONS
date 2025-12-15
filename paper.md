@@ -120,11 +120,11 @@ This method is unconditionally stable for gating variables, allowing larger time
 | Type | g_Na (mS/cm²) | g_K (mS/cm²) | g_K(Ca) (mS/cm²) | Firing Pattern |
 |------|---------------|--------------|------------------|----------------|
 | Squid Axon | 120 | 36 | 0 | Regular |
-| Regular Spiking (RS) | 50 | 10 | 0.5 | Adapting |
-| Fast Spiking (FS) | 80 | 20 | 0 | Non-adapting |
-| Intrinsically Bursting (IB) | 50 | 5 | 1.0 | Burst onset |
-| Low-Threshold Spiking (LTS) | 40 | 10 | 0.3 | Rebound bursts |
-| Chattering | 60 | 8 | 0.8 | High-freq bursts |
+| Regular Spiking (RS) | 100 | 30 | 0.3 | Adapting |
+| Fast Spiking (FS) | 150 | 50 | 0.05 | Non-adapting |
+| Intrinsically Bursting (IB) | 120 | 25 | 0.8 | Burst onset |
+| Low-Threshold Spiking (LTS) | 90 | 28 | 0.2 | Rebound bursts |
+| Chattering | 140 | 40 | 1.2 | High-freq bursts |
 
 ---
 
