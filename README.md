@@ -250,9 +250,9 @@ If you use this library in your research, please cite:
 
 ```bibtex
 @software{hodgkin_huxley_rust,
-  title = {hodgkin-huxley: A Rust implementation of the Hodgkin-Huxley neuron model},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/cortexia/hodgkin-huxley}
+  title = {hodgkin-huxley-rs: A Production-Ready Rust Implementation of Biophysically Accurate Neuron Models},
+  author = {Molina Burgos, Francisco},
+  year = {2025},
+  url = {https://github.com/Yatrogenesis/PP25-HODGKIN_HUXLEY_NEURONS}
 }
 ```
